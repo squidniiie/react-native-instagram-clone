@@ -1,14 +1,18 @@
 // import { StatusBar } from 'expo-status-bar';
 // import { StyleSheet, Text, View, Alert, SafeAreaView, Button, Dimensions } from 'react-native';
 // import { useDimensions, useDeviceOrientation } from '@react-native-community/hooks';
-import WelcomeScreen from './app/screens/WelcomeScreen';
+import SignInStack from "./navigation";
+import HomeScreen from "./screens/HomeScreen";
+import PostScreen from "./screens/PostScreen";
 
 export default function App() {
   // console.log(useDimensions());
   // const { landscape } = useDeviceOrientation();
   // const handlePress = () => console.log("Pressed")
-  return <WelcomeScreen />;
+  return <SignInStack />
 }
+{/* <HomeScreen /> */ }
+{/* <WelcomeScreen /> */ }
     // <View style={{
     //   backgroundColor: "#fff",
     //   flex: 1,
